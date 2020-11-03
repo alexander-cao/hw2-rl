@@ -1,0 +1,54 @@
+WARNING:tensorflow:From /home/sftpuser/files/acao/pong/policy_value_net.py:7: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+
+WARNING: The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:From /home/sftpuser/files/acao/pong/policy_value_net.py:11: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+WARNING:tensorflow:From /usr/local/lib/python3.5/dist-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From /home/sftpuser/files/acao/pong/policy_value_net.py:21: multinomial (from tensorflow.python.ops.random_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.random.categorical instead.
+WARNING:tensorflow:From /usr/local/lib/python3.5/dist-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2020-11-02 17:22:46.243161: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2020-11-02 17:22:46.480686: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x6614070 executing computations on platform CUDA. Devices:
+2020-11-02 17:22:46.480723: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): GeForce RTX 2080 Ti, Compute Capability 7.5
+2020-11-02 17:22:46.482736: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3600000000 Hz
+2020-11-02 17:22:46.483367: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x66b7010 executing computations on platform Host. Devices:
+2020-11-02 17:22:46.483417: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+2020-11-02 17:22:46.483967: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.545
+pciBusID: 0000:19:00.0
+totalMemory: 10.73GiB freeMemory: 10.57GiB
+2020-11-02 17:22:46.483996: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2020-11-02 17:22:46.485732: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-11-02 17:22:46.485759: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0 
+2020-11-02 17:22:46.485770: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N 
+2020-11-02 17:22:46.486249: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10284 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:19:00.0, compute capability: 7.5)
+2020-11-02 17:22:47.597754: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library libcublas.so.10.0 locally
+learning pong better! model saved. -20
+learning pong better! model saved. -19
+learning pong better! model saved. -18
+learning pong better! model saved. -17
+learning pong better! model saved. -16
+learning pong better! model saved. -15
+learning pong better! model saved. -14
+learning pong better! model saved. -13
+learning pong better! model saved. -12
+learning pong better! model saved. -11
+learning pong better! model saved. -10
+learning pong better! model saved. -9
+learning pong better! model saved. -8
+learning pong better! model saved. -7
+learning pong better! model saved. -6
+learning pong better! model saved. -5
